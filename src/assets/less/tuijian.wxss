@@ -1,0 +1,495 @@
+.cor {
+  position: relative;
+}
+.top {
+  height: 336px;
+}
+.top .swiper-container {
+  position: relative;
+}
+.top .swiper-container .swiper-slide {
+  width: 100%;
+  text-align: center;
+  height: 336px;
+}
+.top .swiper-container .swiper-slide img {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+.top .swiper-container .swiper-button-prev,
+.top .swiper-container .swiper-button-next {
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  width: 37px;
+  height: 63px;
+  text-indent: -9999px;
+}
+.top .swiper-container .swiper-button-prev {
+  background: url(https://s2.music.126.net/style/web2/img/index/banner.png?fe42a61d897a9cd5b4d8593c5d1912e4) 0 9999px no-repeat;
+  background-position: 0 -360px;
+}
+.top .swiper-container .swiper-button-prev:hover {
+  display: block;
+  background: url(https://s2.music.126.net/style/web2/img/index/banner.png?fe42a61d897a9cd5b4d8593c5d1912e4) 0 9999px no-repeat;
+  background-position: 0 -430px;
+}
+.top .swiper-container .swiper-button-next {
+  background: url(https://s2.music.126.net/style/web2/img/index/banner.png?fe42a61d897a9cd5b4d8593c5d1912e4) 0 9999px no-repeat;
+  background-position: 0 -508px;
+}
+.top .swiper-container .swiper-button-next:hover {
+  display: block;
+  background: url(https://s2.music.126.net/style/web2/img/index/banner.png?fe42a61d897a9cd5b4d8593c5d1912e4) 0 9999px no-repeat;
+  background-position: 0 -578px;
+}
+.down {
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  right: 17.8%;
+  width: 254px;
+  height: 336px;
+  background: url(../../assets/image/download.png) no-repeat 0 0;
+}
+.down .onload {
+  display: block;
+  width: 215px;
+  height: 56px;
+  margin: 212px 0 0 19px;
+  background-position: 0 9999px;
+  text-indent: -9999px;
+}
+.down p {
+  margin: 10px auto;
+  text-align: center;
+  color: #8d8d8d;
+  font-size: 12px;
+}
+.content {
+  width: 980px;
+  min-height: 1325px;
+  margin: 0 auto;
+  border: 1px solid #d3d3d3;
+  border-width: 0 1px;
+  background: #fff;
+  display: flex;
+  height: 100%;
+}
+.content .dowo {
+  float: left;
+  width: 100%;
+  margin-right: -250px;
+  height: 100%;
+  background: #fff;
+}
+.content .dowo .fg_lef {
+  margin-right: 250px;
+}
+.content .dowo .fg_lef .fg_cont {
+  padding: 20px 20px 0px;
+}
+.content .dowo .fg_lef .fg_cont .fg_title {
+  height: 33px;
+  padding: 0 10px 0 34px;
+  border-bottom: 2px solid #C10D0C;
+  background: url(https://s2.music.126.net/style/web2/img/index/index.png?0bab0a6ba8c1d067b1bc17701c7a1d67) no-repeat 0 9999px;
+  background-position: -225px -156px;
+}
+.content .dowo .fg_lef .fg_cont .fg_title .car {
+  float: left;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+}
+.content .dowo .fg_lef .fg_cont .fg_title .tab {
+  float: left;
+  margin: 7px 0 0 20px;
+  font-size: 12px;
+}
+.content .dowo .fg_lef .fg_cont .fg_title .tab div {
+  display: inline-block;
+  color: #666;
+}
+.content .dowo .fg_lef .fg_cont .fg_title .tab div span {
+  margin: 0 10px;
+  color: #ccc;
+}
+.content .dowo .fg_lef .fg_cont .fg_title .tab div:hover span {
+  text-decoration: underline;
+}
+.content .dowo .fg_lef .fg_cont .fg_title .more {
+  float: right;
+  margin-top: 9px;
+}
+.content .dowo .fg_lef .fg_cont .fg_title .more a {
+  color: #666;
+  font-size: 12px;
+}
+.content .dowo .fg_lef .fg_cont .fg_title .more i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+  vertical-align: middle;
+  background: url(https://s2.music.126.net/style/web2/img/index/index.png?0bab0a6ba8c1d067b1bc17701c7a1d67) no-repeat 0 9999px;
+  background-position: 0 -240px;
+}
+.content .dowo .fg_lef .fg_cont .import .timer {
+  display: none;
+}
+.content .dowo .fg_lef .fg_cont .import .on {
+  display: block;
+}
+.content .fg_rig {
+  float: right;
+  width: 250px;
+  position: relative;
+  zoom: 1;
+  border-left: 1px solid #999;
+}
+.content .fg_rig .info {
+  height: 126px;
+  padding-top: 0;
+  background: url(https://s2.music.126.net/style/web2/img/index/index.png?0bab0a6ba8c1d067b1bc17701c7a1d67) no-repeat 0 9999px;
+  background-position: 0 0;
+}
+.content .fg_rig .info p {
+  width: 205px;
+  margin: 0 auto;
+  padding: 16px 0;
+  line-height: 22px;
+  font-size: 12px;
+  color: #666;
+}
+.content .fg_rig .info a {
+  display: block;
+  width: 100px;
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 1px 0 #8a060b;
+  margin: 0 auto;
+  font-size: 12px;
+  background: url(https://s2.music.126.net/style/web2/img/index/index.png?0bab0a6ba8c1d067b1bc17701c7a1d67) no-repeat 0 9999px;
+  background-position: 0 -195px;
+}
+.content .fg_rig .Hideinfo {
+  height: 200px;
+  padding-top: 20px;
+  background: url(https://s2.music.126.net/style/web2/img/index/index.png?0bab0a6ba8c1d067b1bc17701c7a1d67) no-repeat 0 9999px;
+  background-position: 0 -270px;
+}
+.content .fg_rig .Hideinfo .portrait {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  padding: 2px;
+  background: #fff;
+  border: 1px solid #dadada;
+}
+.content .fg_rig .Hideinfo .portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content .fg_rig .Hideinfo .fcb {
+  float: left;
+  width: 115px;
+  margin-left: 18px;
+  padding-top: 3px;
+}
+.content .fg_rig .Hideinfo .fcb .name {
+  overflow: hidden;
+}
+.content .fg_rig .Hideinfo .fcb .name a {
+  width: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+.content .fg_rig .Hideinfo .fcb .grade {
+  width: 100%;
+  margin-top: 5px;
+}
+.content .fg_rig .Hideinfo .fcb .grade a {
+  display: inline-block;
+  height: 17px;
+  overflow: hidden;
+  padding-left: 25px;
+  line-height: 18px;
+  color: #999;
+  font-weight: bold;
+  font-style: italic;
+  background: url(https://s2.music.126.net/style/web2/img/icon2.png?5362470711c8fc1182efe7944ef80716) no-repeat 0 9999px;
+  background-position: -130px -64px;
+}
+.content .fg_rig .Hideinfo .fcb .grade a i {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  float: right;
+  width: 8px;
+  height: 17px;
+  background: url(https://s2.music.126.net/style/web2/img/icon2.png?5362470711c8fc1182efe7944ef80716) no-repeat 0 9999px;
+  background-position: -192px -64px;
+}
+.content .fg_rig .Hideinfo .fcb .butto {
+  position: relative;
+  margin-top: 15px;
+  zoom: 1;
+}
+.content .fg_rig .Hideinfo .fcb .butto a {
+  display: inline-block;
+  color: #fff;
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+  height: 31px;
+  line-height: 31px;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+  background: url(https://s2.music.126.net/style/web2/img/button2.png?11b102c6a06ee1d31116b94bc2bf6128) no-repeat 0 9999px;
+  background-position: right -428px;
+}
+.content .fg_rig .Hideinfo .fcb .butto a i {
+  font-size: 12px;
+  display: inline-block;
+  padding: 0 15px 0 20px;
+  pointer-events: none;
+  width: 60px;
+  color: #fff;
+  background: url(https://s2.music.126.net/style/web2/img/button2.png?11b102c6a06ee1d31116b94bc2bf6128) no-repeat 0 9999px;
+  background-position: 0 -387px;
+}
+.content .fg_rig .Hideinfo .fcb::after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.content .fg_rig .Hideinfo ul {
+  margin: 12px 0 0 12px;
+  color: #666;
+}
+.content .fg_rig .Hideinfo ul li {
+  float: left;
+  height: 40px;
+  padding: 0 18px;
+  border-right: 1px solid #e4e4e4;
+}
+.content .fg_rig .Hideinfo ul li a {
+  display: block;
+  color: #666;
+  font-size: 12px;
+}
+.content .fg_rig .Hideinfo ul li a strong {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+}
+.content .fg_rig .Hideinfo ul li a span {
+  margin-left: 2px;
+}
+.content .fg_rig .Hideinfo ul li.firs {
+  padding-left: 0;
+}
+.content .fg_rig::after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.content .singer {
+  margin-top: 15px;
+}
+.content .singer .title {
+  position: relative;
+  height: 23px;
+  margin: 0 20px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  font-size: 12px;
+}
+.content .singer .title span {
+  float: left;
+}
+.content .singer .title a {
+  float: right;
+  font-weight: normal;
+  color: #666;
+}
+.content .singer .cont {
+  margin: 6px 0 14px 20px;
+  display: inline-block;
+}
+.content .singer .cont li {
+  float: left;
+  width: 210px;
+  height: 62px;
+  background: #fafafa;
+  margin-top: 14px;
+}
+.content .singer .cont li a {
+  float: left;
+  width: 210px;
+  height: 62px;
+  background: #fafafa;
+}
+.content .singer .cont li a .img_url {
+  float: left;
+  width: 62px;
+  height: 62px;
+}
+.content .singer .cont li a .img_url img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content .singer .cont li a .text_rl {
+  float: left;
+  width: 147px;
+  height: 62px;
+  padding-left: 14px;
+  border: 1px solid #e9e9e9;
+  border-left: none;
+  color: #333;
+}
+.content .singer .cont li a .text_rl h4 {
+  font-weight: bolder;
+}
+.content .singer .cont li a .text_rl h4 span {
+  width: 90%;
+  font-size: 14px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.content .singer .cont li a .text_rl p {
+  width: 90%;
+  font-size: 12px;
+}
+.content .singer .cont li a:hover {
+  background: #f4f4f4;
+}
+.content .singer .want a {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 20px;
+  border-radius: 4px;
+  color: #333;
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+  display: inline-block;
+  height: 31px;
+  line-height: 31px;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+  background: url(https://s2.music.126.net/style/web2/img/button2.png?c29a3be4941f0e9afa45b68163e0169a) no-repeat 0 9999px;
+  background-position: right -100px;
+}
+.content .singer .want a i {
+  display: inline-block;
+  width: 206px;
+  color: #333;
+  padding: 0 15px 0 20px;
+  pointer-events: none;
+  background: url(https://s2.music.126.net/style/web2/img/button2.png?c29a3be4941f0e9afa45b68163e0169a) no-repeat 0 9999px;
+  background-position: 0 -59px;
+}
+.content .singer .want a:hover i {
+  color: #333;
+  background: url(https://s2.music.126.net/style/web2/img/button2.png?c29a3be4941f0e9afa45b68163e0169a) no-repeat 0 9999px;
+  background-position: 0 -141px;
+  text-decoration: none;
+}
+.content .remen {
+  margin-top: 30px;
+}
+.content .remen h3 {
+  border: none;
+  font-size: 12px;
+  position: relative;
+  height: 23px;
+  margin: 0 20px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+}
+.content .remen ul {
+  display: inline-block;
+  margin: 20px 0 0 20px;
+}
+.content .remen ul li {
+  float: left;
+  width: 210px;
+  height: 50px;
+}
+.content .remen ul li .left {
+  float: left;
+  width: 40px;
+  margin-right: 10px;
+}
+.content .remen ul li .left img {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 1px #333333 inset;
+}
+.content .remen ul li .right {
+  float: left;
+  width: 160px;
+  line-height: 21px;
+}
+.content .remen ul li .right .top {
+  width: 100%;
+  margin-bottom: 0;
+  display: initial;
+}
+.content .remen ul li .right .top a {
+  display: inline-block;
+  zoom: 1;
+  max-width: 88%;
+  vertical-align: middle;
+  color: #000;
+  font-size: 12px;
+  line-height: 21px;
+}
+.content .remen ul li .right .top i {
+  width: 11px;
+  height: 13px;
+  font-size: 100%;
+  font-style: normal;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  background: url(https://s2.music.126.net/style/web2/img/icon.png?cd087fcb4130df785e25fbbf1cccbb4a) no-repeat 0 9999px;
+  background-position: 0 1px;
+}
+.content .remen ul li .right .bottom {
+  font-size: 12px;
+  width: 100%;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+a:hover {
+  text-decoration: underline;
+}
