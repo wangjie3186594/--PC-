@@ -36,4 +36,6 @@ banner：/banner
 
 ### 很多功能未能实现……做的有点烦躁！！！ 先暂停做别的了……
 
-### 后台接口需要下载一个文件 网址为：
+### 后台接口需要下载一个文件 网址为：https://github.com/Binaryify/NeteaseCloudMusicApi 下载到本地 运行 node app.js
+### 便捷查看API网址：https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi
+
